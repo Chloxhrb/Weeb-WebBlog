@@ -1,12 +1,25 @@
-# React + Vite
+# Weeb - Blog sur le web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Projet de développement des interfaces vitrines pour Weeb, comprenant :
+- Page d'accueil
+- Page de contact
+- Page de connexion
 
-Currently, two official plugins are available:
+## Objectifs
+- Implémenter la maquette Figma fournie
+- Respecter les contraintes techniques
+- Garantir une expérience responsive
+- Mettre en place un système de routing
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+- React - Bibliothèque frontend
+- Vite - Outil de build
+- React Router DOM - Gestion des routes
+- CSS Modules - Styling
+- ESLint - Linting du code
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Fonctionnalités implémentées
+- Routing entre les pages
+- Design responsive (mobile/tablette/desktop)
+- Espace d'authentification
