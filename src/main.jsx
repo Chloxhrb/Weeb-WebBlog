@@ -6,6 +6,7 @@ import './App.css';
 import Home from "./pages/Home.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
 import Contact from "./pages/Contact.jsx";
+import Connexion from "./pages/Connexion.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Connexion" element={<Connexion />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
