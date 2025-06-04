@@ -8,6 +8,7 @@ function Apprentissage () {
             <div className="Apprentissage">
                 <p className="text-A"> Des ressources pour tous les niveaux</p>
                 <h1 className="text-B">Apprenez <span className="et">et</span> <br/>progressez</h1>
+                <h1 className="text-B-Mobile">Apprenez <span className="et"> et </span> progressez</h1>
                 <p className="text-C">Que vous débutiez en développement web ou que vous soyez un expert <br/> cherchant à approfondir vos connaissances, nous vous proposons des tutoriels,<br/> guides et bonnes pratiques pour apprendre efficacement.</p>
                 <Link to={"/"} className="Link-ressources">
                     Explorer les ressources

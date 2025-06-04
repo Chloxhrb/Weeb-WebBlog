@@ -250,6 +250,13 @@
   font-family: "Roboto";
   font-weight: 800;
 }
+.text-B-Mobile {
+  display: none;
+  font-size: 72px;
+  color: #c084fc;
+  font-family: "Roboto";
+  font-weight: 800;
+}
 .et {
   color: white;
 }
@@ -281,6 +288,9 @@
   color: white;
   font-family: "Roboto";
   font-weight: 800;
+}
+.text-B1-Mobile {
+  display: none;
 }
 .RestezInforme {
   display: flex;
@@ -527,4 +537,436 @@ textarea:focus,
   line-height: 160%;
   text-align: center;
   font-weight: 400;
+}
+
+/*Tablette: max-width 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Menu {
+    width: 80%;
+  }
+  .Link-Join {
+    border-radius: 8px;
+    height: 48px;
+    width: 30%;
+  }
+  .Menu-Gauche {
+    width: 50%;
+  }
+  .Link-group {
+    width: 40%;
+  }
+  .Container-accueil-Image {
+    width: 70%;
+  }
+  .Image-accueil {
+    width: 100%;
+  }
+  .Container-accueil-Text {
+    width: 100%;
+  }
+  .Button-accueil {
+    width: 65%;
+  }
+  .Titre-accueil {
+    font-size: 56px;
+  }
+  .Text-accueil {
+    width: 95%;
+  }
+  .liste-Partenaire {
+    gap: 65px;
+    width: 85%;
+    flex-wrap: wrap;
+  }
+  .Container-Apprentissage {
+    padding: 60px;
+    gap: 20px;
+  }
+  .Apprentissage {
+    width: 47%;
+    gap: 10px;
+  }
+  .Apprentissage-Image {
+    width: 35%;
+  }
+  .text-A {
+    font-size: 20px;
+  }
+  .text-B {
+    font-size: 50px;
+  }
+  .text-B-Mobile {
+    display: none;
+  }
+  .text-C {
+    font-size: 14px;
+  }
+  .Link-ressources {
+    font-size: 23px;
+    gap: 9px;
+  }
+  .RestezInforme-Image {
+    width: 30%;
+  }
+  .Information-Img {
+    width: 80%;
+  }
+  .RestezInforme {
+    width: 55%;
+    padding: 40px;
+    gap: 10px;
+  }
+  .text-B1 {
+    font-size: 50px;
+  }
+  .text-B1-Mobile {
+    display: none;
+  }
+  .titre-form {
+    font-size: 60px;
+  }
+  .text-contact {
+    font-size: 20px;
+  }
+  .form-group {
+    width: 90%;
+  }
+  .form-column {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* mobile/tablette portrait */
+@media (min-width: 641px) and (max-width: 768px) {
+  .Image-accueil {
+    width: 100%;
+  }
+  .liste-Partenaire {
+    flex-wrap: wrap;
+  }
+  .Button-accueil {
+    flex-direction: column;
+  }
+  .Titre-accueil {
+    font-size: 42px;
+  }
+  .Container-accueil {
+    padding: 60px;
+  }
+  .Text-accueil {
+    font-size: 19px;
+    width: 80%;
+    line-height: 170%;
+  }
+  .Button-accueil {
+    width: 50%;
+  }
+  .Container-Apprentissage {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 80px;
+  }
+  .Apprentissage {
+    width: 100%;
+    gap: 35px;
+    align-items: center;
+  }
+  .text-A {
+    text-align: center;
+  }
+  .text-B {
+    display: none;
+  }
+  .text-C {
+    text-align: center;
+  }
+  .text-B-Mobile {
+    display: block;
+    font-size: 44px;
+    color: #c084fc;
+    font-family: "Roboto";
+    font-weight: 800;
+  }
+  .Apprentissage-Image {
+    width: 100%;
+  }
+  .Container-RestezInforme {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 30px;
+    padding: 80px;
+  }
+  .RestezInforme-Image {
+    width: 100%;
+  }
+  .Information-Img {
+    width: 70%;
+  }
+  .RestezInforme {
+    width: 100%;
+    gap: 35px;
+    align-items: center;
+    padding: 0px;
+  }
+  .text-B1 {
+    display: none;
+  }
+  .text-B1-Mobile {
+    display: block;
+    font-size: 44px;
+    color: white;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 800;
+  }
+  .Footer_top {
+    flex-direction: column;
+    width: 100%;
+    gap: 65px;
+  }
+  .Footer-menu {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .Footer_title {
+    font-size: 72px;
+  }
+  .title_link {
+    font-size: 25px;
+  }
+  .Page_link {
+    font-size: 20px;
+  }
+  .social_media {
+    width: 40%;
+  }
+  .Link-ressources {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .form-group {
+    width: 90%;
+  }
+  .full {
+    width: 100%;
+  }
+  .titre-form {
+    font-size: 60px;
+  }
+  .form-column {
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+/* mobile/tablette portrait */
+@media (min-width: 1px) and (max-width: 640px) {
+  .liste-Partenaire {
+    flex-wrap: wrap;
+  }
+  .Image-accueil {
+    width: 100%;
+  }
+  .Container-accueil-Image {
+    width: 95%;
+  }
+  .Titre-accueil {
+    font-size: 59px;
+  }
+  .Footer_top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-B1 {
+    font-size: 15px;
+  }
+  .Text-accueil {
+    width: 100%;
+  }
+  .Button-accueil {
+    flex-direction: column;
+    width: 82%;
+  }
+  .Container-Apprentissage {
+    padding: 50px;
+    flex-direction: column;
+  }
+  .Apprentissage {
+    width: 80%;
+  }
+  .text-A {
+    text-align: center;
+  }
+  .text-B {
+    display: none;
+  }
+  .text-B-Mobile {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 39px;
+    gap: 15px;
+    text-align: center;
+    justify-content: center;
+
+  }
+  .text-C {
+    font-size: 16px;
+    text-align: center;
+  }
+  .Apprentissage-Image {
+    width: 70%;
+  }
+  .Container-Apprentissage {
+    gap: 60px;
+  }
+  .Link-ressources {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .Container-RestezInforme {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .RestezInforme {
+    width: 100%;
+  }
+  .text-B1 {
+    font-size: 39px;
+    text-align: center;
+  }
+  .Information-Img {
+    width: 100%;
+  }
+  .RestezInforme-Image {
+    width: 50%;
+    padding-bottom: 50px;
+  }
+  .Footer-menu {
+  justify-content: center;
+  align-items: center;
+  }
+  .Footer_bottom {
+   flex-direction: column-reverse;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+}
+.social_media {
+    width: 40%;
+}
+  .form-group {
+    width: 100%;
+  }
+  .form-row {
+    flex-direction: column;
+    gap: 50px;
+}
+.form {
+    gap: 50px;
+}
+  .full {
+    width: 100%;
+  }
+  .titre-form {
+    font-size: 60px;
+  }
+  .form-column {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1024px) {
+
+ .burger-icon {
+    display: block; /* Affiché seulement sur mobile/tablette */
+  }
+
+  .Menu-Gauche,
+  .Link-group,
+  .Link-group2 {
+    display: none; /* Cache les liens classiques en responsive */
+  }
+
+  .Menu {
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    width: 90%;
+  }
+
+  .burger-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .mobile-menu {
+    position: absolute;
+    top: 96px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    background-color: #19202e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0;
+    gap: 16px;
+    z-index: 1000;
+    border-radius: 15px;
+    animation: slideDown 0.3s ease-in-out;
+  }
+
+  .mobile-menu.closing {
+    animation: slideUp 0.3s ease-in-out forwards;
+  }
+
+  .mobile-menu a {
+    color: white;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 12px 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #af69ef;
+  }
+
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%) translateX(-50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0) translateX(-50%);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(0) translateX(-50%);
+      opacity: 1;
+    }
+    to {
+      transform: translateY(-20px) translateX(-50%);
+      opacity: 0;
+    }
+  }
+.mobile-menu.closing {
+  animation: slideUp 0.3s ease-in-out forwards;
+}
+
 }

@@ -2,6 +2,21 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [closing, setClosing] = useState(false);
+
+  const toggleMenu = () => {
+    if (menuOpen) {
+      setClosing(true);
+      setTimeout(() => {
+        setMenuOpen(false);
+        setClosing(false);
+      }, 200); // durée de l'animation
+    } else {
+      setMenuOpen(true);
+    }
+  };
+
   return (
     <section className="head-Container">
       <div className="Menu">
@@ -26,7 +41,24 @@ function Header() {
             </Link>
           </div>
         </div>
+
+        <div className="burger-icon" onClick={toggleMenu}>
+          <img
+            src="./src/assets/menuBurger.png"
+            alt="Menu"
+            className="burger-img"
+          />
+        </div>
       </div>
+
+      {menuOpen && (
+        <div className={`mobile-menu ${closing ? "closing" : ""}`}>
+          <Link to="/">About</Link>
+          <Link to="/Contact">Contact</Link>
+          <Link to="/Connexion">Login</Link>
+          <Link to="/">Join Now</Link>
+        </div>
+      )}
     </section>
   );
 }
